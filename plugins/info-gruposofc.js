@@ -11,9 +11,9 @@ const handler = async (m, {conn, usedPrefix}) => {
   const text = `${tradutor.texto1[0]}
 
 ${tradutor.texto1[1]}
-1.- https://chat.whatsapp.com/FFB0fgdK3IP4ZEmZ8jF1CC`.trim();
+1.- https://chat.whatsapp.com/JcyRxqoO7w1860QM9zUOQO`.trim();
   const buttonMessage= {
-    'document': {url: `https://www.instagram.com/ineffable.mvrco/`},
+    'document': {url: `https://www.instagram.com/lxlito.3/`},
     'mimetype': `application/${document}`,
     'fileName': `${tradutor.texto2}`,
     'fileLength': 99999999999999,
@@ -22,13 +22,13 @@ ${tradutor.texto1[1]}
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://www.instagram.com/ineffable.mvrco/',
+        'mediaUrl': 'https://www.instagram.com/lxlito.3/',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': `${tradutor.texto3}`,
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://chat.whatsapp.com/FFB0fgdK3IP4ZEmZ8jF1CC'}},
+        'sourceUrl': 'https://chat.whatsapp.com/JcyRxqoO7w1860QM9zUOQO'}},
     'caption': text,
     'footer': wm,
     'headerType': 6};
